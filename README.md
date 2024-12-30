@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#### $ npx create-next-app@latest react-todolist --typescript --eslint
+```
+npm WARN exec The following package was not found and will be installed: create-next-app@15.1.2
+? Would you like to use Tailwind CSS? » No / Yes
+√ Would you like to use Tailwind CSS? ... No / Yes
+? Would you like your code inside a `src/` directory? » No / Yes
+√ Would you like your code inside a `src/` directory? ... No / Yes
+? Would you like to use App Router? (recommended) » No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes
+? Would you like to use Turbopack for `next dev`? » No / Yes
+√ Would you like to use Turbopack for `next dev`? ... No / Yes
+? Would you like to customize the import alias (`@/*` by default)? » No / Yes
+√ Would you like to customize the import alias (`@/*` by default)? ... No / Yes
+Creating a new Next.js app in C:\A_CURSOS\REACT\react-todolist.
 
-## Getting Started
+Using npm.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Initializing project with template: app-tw
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installing dependencies:
+```
+- react
+- react-dom
+- next
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installing devDependencies:
+```
+- typescript
+- @types/node
+- @types/react
+- @types/react-dom
+- postcss
+- tailwindcss
+- eslint
+- eslint-config-next
+- @eslint/eslintrc
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Librerias
+npm install -D tailwindcss postcss autoprefixer
 
-## Learn More
+### Levantar servidor
+$ npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+### Salida
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image](https://github.com/user-attachments/assets/96c97e83-7a49-485a-b968-6018dc75b26b)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Validaciones
+![image](https://github.com/user-attachments/assets/b81f5e1b-f103-42d1-a538-4da60340dcd1)
 
-## Deploy on Vercel
+![image](https://github.com/user-attachments/assets/113b3288-5a5d-4b41-93ff-e659b4aeb69d)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Agregar alumno
+  
+  ![image](https://github.com/user-attachments/assets/bed84e2d-5a56-486a-a5a4-f94a2f0b8615)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  ![image](https://github.com/user-attachments/assets/eed563b2-7827-473f-81cf-7d665d2f61c1)
+
+* Eliminar alumno
+![image](https://github.com/user-attachments/assets/a840af4c-9c82-4f2a-9009-22c8703d46c9)
+
+  
+
+
